@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive plex</title>
+    <style>
+        .box {
+            background-color: crimson;
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 2px solid red;
+
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+           
+            background-color: aquamarine;
+            border: 2px solid tomato;
+
+        }
+        .container-2{
+          display: flex;
+          flex-wrap:wrap ;
+          gap: ;
+
+        }
+        @media screen and(max-width:576) {
+            
+     .container{
+        flex-direction: column;
+     }
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>flexible flex</h3>
+    <div class="container">
+        <div class="box">
+            <h3>fast box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aperiam quo ipsa debitis vitae corporis
+                illum, ab, suscipit ut minus a recusandae sapiente rerum nobis obcaecati cum consectetur,
+                unde cupiditate!</p>
+
+        </div>
+        <div class="container">
+        <div class="box">
+            
+
+                <h3>scend box</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aperiam quo ipsa debitis vitae
+                    corporis illum, ab, suscipit ut minus a recusandae sapiente rerum nobis obcaecati cum consectetur,
+                    unde cupiditate!</p>
+            </div>
+
+            <div class="container-2">
+            
+
+         <div class="item">iten-1</div>
+         <div class="item">iten-2</div>
+         <div class="item">iten-3</div>
+         <div class="item">iten-4</div>
+         <div class="item">iten-5</div>
+         <div class="item">iten-6</div>
+         <div class="item">iten-7</div>
+         <div class="item">iten-8</div>
+         <div class="item">iten-9</div>
+         <div class="item">iten-10</div>
+        </div>
+       
+
+        </div>
+</body>
+
+</html>
