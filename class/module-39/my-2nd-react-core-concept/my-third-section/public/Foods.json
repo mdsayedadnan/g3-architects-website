@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Margherita Pizza",
+        "description": "A delicious classic pizza with mozzarella, basil, and tomato sauce.",
+        "image": "https://images.unsplash.com/photo-1548365328-6d5077623fb1"
+    },
+    {
+        "id": 2,
+        "title": "Spaghetti Carbonara",
+        "description": "A rich pasta dish with eggs, cheese, pancetta, and pepper.",
+        "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
+    },
+    {
+        "id": 3,
+        "title": "Caesar Salad",
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "https://images.unsplash.com/photo-1572441710628-9313c8d44e3b"
+    },
+    {
+        "id": 4,
+        "title": "Sushi Platter",
+        "description": "An assortment of fresh sushi rolls with fish, rice, and seaweed.",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+    },
+    {
+        "id": 5,
+        "title": "Burger with Fries",
+        "description": "Juicy beef patty with lettuce, tomato, and cheese, served with crispy fries.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    },
+    {
+        "id": 6,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta with grilled chicken, garlic, and Parmesan cheese.",
+        "image": "https://images.unsplash.com/photo-1608571427754-2e245d5148ab"
+    },
+    {
+        "id": 7,
+        "title": "Tacos",
+        "description": "Soft corn tortillas filled with seasoned beef, salsa, cheese, and lettuce.",
+        "image": "https://images.unsplash.com/photo-1601924571048-0d6f1a9139ce"
+    },
+    {
+        "id": 8,
+        "title": "Pancakes with Syrup",
+        "description": "Fluffy pancakes topped with butter and maple syrup.",
+        "image": "https://images.unsplash.com/photo-1572441710649-1b5a44821372"
+    },
+    {
+        "id": 9,
+        "title": "Grilled Salmon",
+        "description": "Fresh salmon fillet grilled with herbs and lemon.",
+        "image": "https://images.unsplash.com/photo-1585238342029-8205e60bedd2"
+    },
+    {
+        "id": 10,
+        "title": "Avocado Toast",
+        "description": "Toasted bread topped with mashed avocado, salt, and pepper.",
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+    },
+    {
+        "id": 11,
+        "title": "Beef Steak",
+        "description": "Tender grilled beef steak served with garlic butter and herbs.",
+        "image": "https://images.unsplash.com/photo-1607344641617-b29e4e6f1c91"
+    },
+    {
+        "id": 12,
+        "title": "Chocolate Cake",
+        "description": "Rich chocolate cake with a moist interior and creamy frosting.",
+        "image": "https://images.unsplash.com/photo-1604908177569-8f0f2b596f71"
+    },
+    {
+        "id": 13,
+        "title": "Fruit Salad",
+        "description": "A fresh and colorful mix of strawberries, blueberries, and oranges.",
+        "image": "https://images.unsplash.com/photo-1574226516831-e1dff420e122"
+    },
+    {
+        "id": 14,
+        "title": "Lasagna",
+        "description": "Layers of pasta with beef, cheese, and tomato sauce, baked to perfection.",
+        "image": "https://images.unsplash.com/photo-1512058564366-c9a0b6b59255"
+    },
+    {
+        "id": 15,
+        "title": "Ice Cream Sundae",
+        "description": "Vanilla ice cream topped with chocolate sauce, whipped cream, and a cherry.",
+        "image": "https://images.unsplash.com/photo-1556910103-1c0286ab6c8b"
+    }
+]
