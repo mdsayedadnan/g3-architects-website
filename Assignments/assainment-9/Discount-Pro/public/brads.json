@@ -15,8 +15,15 @@
         },
         {
           "coupon_code": "1002",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "voucher"
+        },
+        {
+          "coupon_code": "1003",
           "description": "Free delivery on groceries.",
-          "expiry_date": "2024-11-30",
+          "expiry_date": "2024-12-30",
           "condition": "No minimum spend required.",
           "coupon_type": "Free Shipping"
         }
@@ -30,7 +37,7 @@
       "brand_name": "Bata Shoes",
       "rating": 4.7,
       "description": "The most trusted footwear brand in Bangladesh.",
-      "brand_logo": "https://i.ibb.co.com/ctk7Kjn/7.jpg",
+      "brand_logo": "https://i.ibb.co.com/7NppDbj/7.png",
       "coupons": [
         {
           "coupon_code": "2001",
@@ -45,6 +52,18 @@
           "expiry_date": "2024-11-30",
           "condition": "Limited to in-store purchases.",
           "coupon_type": "Bundle Offer"
+        },  {
+          "coupon_code": "1003",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": " gift voucher"
+        },  {
+          "coupon_code": "1004",
+          "description": "25% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "voucher"
         }
       ],
       "shop_Link": "https://bata.com.bd",
@@ -71,6 +90,13 @@
           "expiry_date": "2024-12-15",
           "condition": "Applies to all products.",
           "coupon_type": "Free Shipping"
+        },
+        {
+          "coupon_code": "3003",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "voucher"
         }
       ],
       "shop_Link": "https://oneummah.com",
@@ -149,6 +175,13 @@
           "expiry_date": "2024-12-20",
           "condition": "Applies to select collections.",
           "coupon_type": "Gift"
+        },
+        {
+          "coupon_code": "6003",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "voucher"
         }
       ],
       "shop_Link": "https://lereve.com.bd",
@@ -201,6 +234,13 @@
           "expiry_date": "2024-11-30",
           "condition": "Applicable to select collections.",
           "coupon_type": "Bundle Offer"
+        },
+        {
+          "coupon_code": "8003",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "voucher"
         }
       ],
       "shop_Link": "https://yellow.com.bd",
@@ -280,6 +320,13 @@
               "expiry_date": "2024-11-30",
               "condition": "Valid on in-store purchases only.",
               "coupon_type": "Bundle Offer"
+            },
+            {
+              "coupon_code": "1203",
+              "description": "15% off on bedroom sets.",
+              "expiry_date": "2024-12-25",
+              "condition": "Valid on online purchases only.",
+              "coupon_type": "voucher"
             }
           ],
           "shop_Link": "https://smsgadget.com",

@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-import img1 from '../assets/7.jpg'
+import img1 from '../assets/7.png'
 import img2 from '../assets/download.png'
 import img3 from '../assets/3.png'
 import img4 from '../assets/6.jpg'
@@ -21,17 +21,17 @@ const TopBrands = () => {
             <div className="p-8">
                 <Marquee pauseOnHover >
                     <div className=" flex flex-row gap-5">
-                      <NavLink> <img className=" rounded-full mr-5" src={img1} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img2} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img3} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img4} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img5} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img6} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img7} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img8} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img9} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img10} alt="" /></NavLink>
-                      <NavLink> <img className="rounded-full mr-5 " src={img11} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className=" rounded-full mr-5" src={img1} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img2} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img3} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img4} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img5} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img6} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img7} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img8} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img9} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img10} alt="" /></NavLink>
+                      <NavLink to='/brands'> <img className="rounded-full mr-5 " src={img11} alt="" /></NavLink>
                     </div>
 
                 </Marquee>
