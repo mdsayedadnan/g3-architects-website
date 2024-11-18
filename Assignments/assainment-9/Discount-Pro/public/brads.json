@@ -1,0 +1,290 @@
+[
+    {
+      "_id": 1,
+      "brand_name": "Evaly Mart",
+      "rating": 4.6,
+      "description": "Bangladesh's leading e-commerce platform for all your needs.",
+      "brand_logo": "https://i.ibb.co.com/C1kHG4w/3.png",
+      "coupons": [
+        {
+          "coupon_code": "1001",
+          "description": "Flat 10% off on all items.",
+          "expiry_date": "2024-12-31",
+          "condition": "Valid for orders over $500.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "1002",
+          "description": "Free delivery on groceries.",
+          "expiry_date": "2024-11-30",
+          "condition": "No minimum spend required.",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop_Link": "https://evaly.com.bd",
+      "category": "Marketplace",
+      "isSaleOn": true
+    },
+    {
+      "_id": 2,
+      "brand_name": "Bata Shoes",
+      "rating": 4.7,
+      "description": "The most trusted footwear brand in Bangladesh.",
+      "brand_logo": "https://i.ibb.co.com/ctk7Kjn/7.jpg",
+      "coupons": [
+        {
+          "coupon_code": "2001",
+          "description": "15% off on formal shoes.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "2002",
+          "description": "Buy 1, Get 1 free on sandals.",
+          "expiry_date": "2024-11-30",
+          "condition": "Limited to in-store purchases.",
+          "coupon_type": "Bundle Offer"
+        }
+      ],
+      "shop_Link": "https://bata.com.bd",
+      "category": "Footwear",
+      "isSaleOn": true
+    },
+    {
+      "_id": 3,
+      "brand_name": "One Ummah",
+      "rating": 4.9,
+      "description": "Quality Islamic clothing and accessories for the whole family.",
+      "brand_logo": "https://i.ibb.co.com/34bvKHK/one-ummah.png",
+      "coupons": [
+        {
+          "coupon_code": "3001",
+          "description": "20% off on men's thobes.",
+          "expiry_date": "2024-12-31",
+          "condition": "Valid for orders above $100.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "3002",
+          "description": "Free delivery on orders over $50.",
+          "expiry_date": "2024-12-15",
+          "condition": "Applies to all products.",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop_Link": "https://oneummah.com",
+      "category": "Islamic Clothing",
+      "isSaleOn": true
+    },
+    {
+      "_id": 4,
+      "brand_name": "Sailor",
+      "rating": 4.8,
+      "description": "Stylish and trendy apparel for modern lifestyles.",
+      "brand_logo": "https://i.ibb.co.com/xfmpc7T/5.png",
+      "coupons": [
+        {
+          "coupon_code": "4001",
+          "description": "Flat 25% off on winter collections.",
+          "expiry_date": "2024-12-20",
+          "condition": "Applicable on select items.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "4002",
+          "description": "Get a free tote bag with purchases over $75.",
+          "expiry_date": "2024-11-30",
+          "condition": "Valid on all categories.",
+          "coupon_type": "Gift"
+        }
+      ],
+      "shop_Link": "https://sailor.com.bd",
+      "category": "Fashion",
+      "isSaleOn": true
+    },
+    {
+      "_id": 5,
+      "brand_name": "Priyo",
+      "rating": 4.5,
+      "description": "Affordable daily essentials and lifestyle products.",
+      "brand_logo": "https://i.ibb.co.com/5nYGMsw/priyo.jpg",
+      "coupons": [
+        {
+          "coupon_code": "5001",
+          "description": "10% cashback on first purchase.",
+          "expiry_date": "2024-12-31",
+          "condition": "Applicable to new customers only.",
+          "coupon_type": "Cashback"
+        },
+        {
+          "coupon_code": "5002",
+          "description": "Free delivery on orders over $30.",
+          "expiry_date": "2024-11-30",
+          "condition": "Applies to all categories.",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop_Link": "https://priyo.com",
+      "category": "Daily Essentials",
+      "isSaleOn": false
+    },
+    {
+      "_id": 6,
+      "brand_name": "Le Reve",
+      "rating": 4.7,
+      "description": "Premium fashion and accessories for men and women.",
+      "brand_logo": "https://i.ibb.co.com/DGbKpmB/le-riva.png",
+      "coupons": [
+        {
+          "coupon_code": "6001",
+          "description": "Flat 20% off on all categories.",
+          "expiry_date": "2024-12-15",
+          "condition": "Valid on orders above $100.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "6002",
+          "description": "Free scarf with women's clothing purchases.",
+          "expiry_date": "2024-12-20",
+          "condition": "Applies to select collections.",
+          "coupon_type": "Gift"
+        }
+      ],
+      "shop_Link": "https://lereve.com.bd",
+      "category": "Fashion",
+      "isSaleOn": true
+    },
+    {
+      "_id": 7,
+      "brand_name": "Unique Furniture",
+      "rating": 4.4,
+      "description": "Contemporary and stylish furniture for modern homes.",
+      "brand_logo": "https://i.ibb.co.com/B4CdVB7/4.jpg",
+      "coupons": [
+        {
+          "coupon_code": "7001",
+          "description": "15% off on bedroom sets.",
+          "expiry_date": "2024-12-25",
+          "condition": "Valid on online purchases only.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "7002",
+          "description": "Free assembly on purchases over $500.",
+          "expiry_date": "2024-12-31",
+          "condition": "Available in select areas.",
+          "coupon_type": "Service"
+        }
+      ],
+      "shop_Link": "https://uniquefurniture.com",
+      "category": "Home & Furniture",
+      "isSaleOn": false
+    },
+    {
+      "_id": 8,
+      "brand_name": "Yellow",
+      "rating": 4.6,
+      "description": "Modern apparel for the trend-conscious generation.",
+      "brand_logo": "https://i.ibb.co.com/gRtjJqF/6.jpg",
+      "coupons": [
+        {
+          "coupon_code": "8001",
+          "description": "20% off on new arrivals.",
+          "expiry_date": "2024-12-15",
+          "condition": "Valid for online orders only.",
+          "coupon_type": "Discount"
+        },
+        {
+          "coupon_code": "8002",
+          "description": "Buy 3 shirts, get 1 free.",
+          "expiry_date": "2024-11-30",
+          "condition": "Applicable to select collections.",
+          "coupon_type": "Bundle Offer"
+        }
+      ],
+      "shop_Link": "https://yellow.com.bd",
+      "category": "Fashion",
+      "isSaleOn": true
+    },
+    {
+      "_id": 9,
+      "brand_name": "Othoba",
+      "rating": 4.5,
+      "description": "Bangladesh's favorite online shopping destination.",
+      "brand_logo": "https://i.ibb.co.com/Sfx0Md1/othoba.jpg",
+      "coupons": [
+        {
+          "coupon_code": "9001",
+          "description": "Flat 5% cashback on all items.",
+          "expiry_date": "2024-12-31",
+          "condition": "Available for wallet payments only.",
+          "coupon_type": "Cashback"
+        },
+        {
+          "coupon_code": "9002",
+          "description": "Free delivery for orders above $50.",
+          "expiry_date": "2024-12-10",
+          "condition": "Applicable to select cities.",
+          "coupon_type": "Free Shipping"
+        }
+      ],
+      "shop_Link": "https://othoba.com",
+      "category": "Marketplace",
+      "isSaleOn": true
+    },
+    
+        {
+          "_id": 11,
+          "brand_name": "4Tech",
+          "rating": 4.8,
+          "description": "Innovative technology solutions and premium gadgets.",
+          "brand_logo": "https://i.ibb.co.com/TkrdDpv/4texh.jpg",
+          "coupons": [
+            {
+              "coupon_code": "1101",
+              "description": "Flat 15% off on gaming peripherals.",
+              "expiry_date": "2024-12-31",
+              "condition": "Valid for online purchases only.",
+              "coupon_type": "Discount"
+            },
+            {
+              "coupon_code": "1102",
+              "description": "Free shipping on orders over $75.",
+              "expiry_date": "2024-12-15",
+              "condition": "Applies to all categories.",
+              "coupon_type": "Free Shipping"
+            }
+          ],
+          "shop_Link": "https://4tech.com.bd",
+          "category": "Electronics",
+          "isSaleOn": true
+        },
+        {
+          "_id": 12,
+          "brand_name": "TECH TITENS",
+          "rating": 4.7,
+          "description": "Your one-stop shop for smartphones and accessories.",
+          "brand_logo": "https://i.ibb.co.com/D1x42d5/1.jpg",
+          "coupons": [
+            {
+              "coupon_code": "1201",
+              "description": "Flat $20 off on smartphones.",
+              "expiry_date": "2024-12-25",
+              "condition": "Applicable to orders above $200.",
+              "coupon_type": "Discount"
+            },
+            {
+              "coupon_code": "1202",
+              "description": "Buy 1, get 1 free on selected phone cases.",
+              "expiry_date": "2024-11-30",
+              "condition": "Valid on in-store purchases only.",
+              "coupon_type": "Bundle Offer"
+            }
+          ],
+          "shop_Link": "https://smsgadget.com",
+          "category": "Mobile Accessories",
+          "isSaleOn": false
+        }
+      ]
+      
