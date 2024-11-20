@@ -18,7 +18,7 @@ const TopBrands = () => {
             <div className="flex items-center justify-center p-5">
                 <h1 className="font-bold text-3xl">TOP BRANDS</h1>
             </div>
-            <div className="p-8">
+            <div className="p-6">
                 <Marquee pauseOnHover >
                     <div className=" flex flex-row gap-5">
                       <NavLink to='/brands'> <img className=" rounded-full mr-5" src={img1} alt="" /></NavLink>

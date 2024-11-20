@@ -25,7 +25,6 @@ const OnSell = () => {
                                     <h2 className="card-title text-2xl font-semibold">{category.brand_name}</h2>
                                     <p className="font-semibold"> You have coupons {category.coupons.length}</p>
                                     <div className="card-actions">
-                                        <button className="btn btn-outline">Buy Now</button>
                                     </div>
                                 </div>
                             </div>

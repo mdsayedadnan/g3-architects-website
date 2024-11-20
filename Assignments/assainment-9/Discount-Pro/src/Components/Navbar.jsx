@@ -1,18 +1,22 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../AuthProvider";
+import { IoMdHome } from "react-icons/io";
+import { TbBrandSafari } from "react-icons/tb";
 
 const Navbar = () => {
-    const {user, logOut} = useContext(AuthContext)
+ 
+    const { user, logOut} = useContext(AuthContext)
 
-   
+
     const links = <>
 
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/brands'>Brands</NavLink></li>
-        <li><NavLink to='/login'>Login</NavLink></li>
+        <li><NavLink to='/'> <IoMdHome />Home</NavLink></li>
+        <li><NavLink to='/brands'> <TbBrandSafari />Brands</NavLink></li>
+        <li><NavLink to='/myProfile'>My Profile</NavLink></li>
+        <li><NavLink to='/Coupon page'>Cupon page</NavLink></li>
         {
-          <>
+            <>
                 <li><NavLink to='/about'> About Dev Profile</NavLink></li>
 
             </>
@@ -41,30 +45,55 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      {
-                        links
-                      }
+                            {
+                                links
+                            }
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">Discount PRO</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                  {
-                    links
-                  }
+                        { links }
                     </ul>
                 </div>
                 <div className="navbar-end">
-                {user && user?.email ? (
-          <button onClick={logOut} className="btn btn-neutral rounded-none">
-            Log-Out
-          </button>
-        ) : (
-          <Link to="/auth/login" className="btn btn-neutral rounded-none">
-            Login
-          </Link>
-        )}
+
+                    {user && user?.email ? (
+                        <div className="dropdown dropdown-end">
+                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                          <div className="w-10 rounded-full">
+                            <img
+                              alt="Tailwind CSS Navbar component"
+                              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                          </div>
+                        </div>
+                        <ul
+                          tabIndex={0}
+                          className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li>
+                            <a className="justify-between bg-black">
+                             {user.email}
+                              
+                            </a>
+                          </li>
+                
+                          <li>
+                          <button onClick={logOut} className="btn btn-neutral rounded-none">
+                            
+                            Log-Out
+                        </button>
+                          </li>
+                        </ul>
+                      </div>
+                   
+                      
+                     
+                    ) : (
+                        <Link to="/login" className="btn btn-neutral rounded-none">
+                            Login
+                        </Link>
+                    )}
                 </div>
             </div>
         </div>
