@@ -7,6 +7,8 @@ import Register from "../Components/Register";
 import AllBrands from "../Components/AllBrands";
 import MyProfile from "../Components/MyProfile";
 import CouponPage from "../Components/CouponPage";
+import Forget from "../Private/Forget";
+import PrivateRoute from "../Private/PrivateRoute";
 
 const Router = createBrowserRouter([
     {
@@ -21,12 +23,16 @@ const Router = createBrowserRouter([
     },
     {
         path: '/myProfile',
-        element: <MyProfile></MyProfile>
+        element:<PrivateRoute><MyProfile></MyProfile></PrivateRoute>
     },
     {
-        path: '/Coupon page',
+        path: '/brands/:id',
         element: <CouponPage></CouponPage>,
-        loader:()=> fetch('../brads.json')
+        // loader: async ({params})=> 
+        //     const res= await fetch(`/brads.json`)
+        //    const data= await res.json()
+        //    const brands = data.find(d =>d._id == useParams.id)
+        //    return brands
 
     },
     {
@@ -41,6 +47,10 @@ const Router = createBrowserRouter([
     {
         path: '/about',
         element:<About></About>
+    },
+    {
+        path:'/forget',
+        element:<Forget></Forget>
     },
     {
         path: '*',

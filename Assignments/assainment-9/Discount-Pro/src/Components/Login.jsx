@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider";
 import Navbar from "./Navbar";
 import { toast } from 'react-toastify';
@@ -51,7 +51,7 @@ const Login = () => {
                                 </label>
                                 <input type="password" placeholder="password" name="passward" className="input input-bordered" required />
                                 <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                                    <NavLink to='/forget' href="#" className="label-text-alt link link-hover">Forgot password?</NavLink>
                                 </label>
                             </div>
                             <div className="form-control mt-6">

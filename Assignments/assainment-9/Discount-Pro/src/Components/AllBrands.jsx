@@ -1,4 +1,4 @@
-import { NavLink, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const AllBrands = () => {
@@ -21,11 +21,11 @@ const AllBrands = () => {
                 {
                     categories.map(category => <div className=" p-3" key={category._id} >
 
-                        <div className="">
+                        <div className="relative">
 
                             <div>
 
-                                <div className=" bg-base-300 shadow-xl rounded-2xl">
+                                <div className=" bg-base-300 shadow-xl rounded-2xl ">
 
                                     <div className=" border flex justify-between">
                                         <div className="flex items-center flex-col justify-center">
@@ -58,8 +58,10 @@ const AllBrands = () => {
                                         <div className="">
 
                                             <div className="flex justify-between ">
-                                                <NavLink to='/Coupon page' className="btn btn-outline ml-8">View Coupons</NavLink>
-                                                <button className="btn btn-outline mr-8"> sale is on</button>
+                                                <Link to='/Coupon page' className="btn btn-outline ml-8">View Coupons</Link>
+                                              {
+                                                category.isSaleOn &&  <p className="btn btn-outline mr-8 absolute bg-amber-400 right-0"> sale is on</p>
+                                              }
                                             </div>
                                         </div>
                                     </div>

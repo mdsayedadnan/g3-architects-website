@@ -1,5 +1,5 @@
 
-const Forgeat = () => {
+const Forget = () => {
     return (
         <div>
             forget passsward
@@ -7,4 +7,4 @@ const Forgeat = () => {
     );
 };
 
-export default Forgeat;
+export default Forget;

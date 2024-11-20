@@ -10,7 +10,7 @@ const Register = () => {
     const [errorMessage, setErrorMessage] = useState('')
     const [succes,setSucces]= useState(false)
     const [show, setShow] = useState(false)
-    const { createNewUser, setUser ,googleSignIn} = useContext(AuthContext);
+    const { createNewUser, setUser ,googleSignIn, manegeProfile} = useContext(AuthContext);
 
 
     const handleRegister = (event) => {
@@ -43,6 +43,7 @@ const Register = () => {
                 const user = result.user;
                 setUser(user)
                 setSucces(true)
+                manegeProfile(name,photo)
                 navigate(location?.state ? location.state : "/")
 
                 console.log(user);
